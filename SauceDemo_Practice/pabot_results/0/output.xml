@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-20T19:23:00.196255" rpa="false" schemaversion="5">
+<suite id="s1" name="SauceDemo Practice" source="D:\RobotFramework-2\SauceDemo_Practice">
+<suite id="s1-s1" name="TestCases" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases">
+<suite id="s1-s1-s1" name="CheckoutTest" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases\CheckoutTest.robot">
+<test id="s1-s1-s1-t1" name="Valid credentials" line="16">
+<kw name="verify total">
+<kw name="Open the browser with url" owner="GenericResources">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:23:00.804758" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x0000029AD619B230&gt;</msg>
+<var>${options}</var>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.804069" elapsed="0.000783"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--incognito</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.805176" elapsed="0.000430"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.805845" elapsed="0.000358"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-notifications</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.806424" elapsed="0.000331"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-popup-blocking</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.806954" elapsed="0.000298"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.807460" elapsed="0.000277"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:23:00.808349" level="INFO">${prefs} = {'credentials_enable_service': False, 'profile.password_manager_enabled': False}</msg>
+<var>${prefs}</var>
+<arg>{"credentials_enable_service": False, "profile.password_manager_enabled": False}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.807939" elapsed="0.000472"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_experimental_option</arg>
+<arg>prefs</arg>
+<arg>${prefs}</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.808606" elapsed="0.000430"/>
+</kw>
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:23:00.809796" level="INFO">Creating an instance of the chrome WebDriver.</msg>
+<msg time="2025-05-20T19:23:00.809886" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-05-20T19:23:00.810068" level="FAIL">TypeError: 'module' object is not callable</msg>
+<arg>${browser}</arg>
+<arg>options=${options}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="FAIL" start="2025-05-20T19:23:00.809295" elapsed="0.004011">TypeError: 'module' object is not callable</status>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.813903" elapsed="0.000193"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.814315" elapsed="0.000153"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.814652" elapsed="0.000121"/>
+</kw>
+<status status="FAIL" start="2025-05-20T19:23:00.802737" elapsed="0.012283">TypeError: 'module' object is not callable</status>
+</kw>
+<kw name="Login with Valid Credential" owner="LoginResources">
+<arg>standard_user</arg>
+<arg>secret_sauce</arg>
+<status status="NOT RUN" start="2025-05-20T19:23:00.815351" elapsed="0.000135"/>
+</kw>
+<kw name="Add the Products to cart" owner="ChcekoutResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.815758" elapsed="0.000143"/>
+</kw>
+<kw name="check out the products" owner="ChcekoutResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.816102" elapsed="0.000122"/>
+</kw>
+<kw name="Fill the checkout Details" owner="ChcekoutResources">
+<arg>${Firstname}</arg>
+<arg>${Lastname}</arg>
+<arg>${Zipcode}</arg>
+<status status="NOT RUN" start="2025-05-20T19:23:00.816442" elapsed="0.000265"/>
+</kw>
+<kw name="Verify the total of the products is correct" owner="ChcekoutResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.817118" elapsed="0.000157"/>
+</kw>
+<kw name="close the broswer session" owner="GenericResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.817501" elapsed="0.000131"/>
+</kw>
+<arg>Firstname=Gayathri</arg>
+<arg>Lastname=R</arg>
+<arg>Zipcode=123456</arg>
+<status status="FAIL" start="2025-05-20T19:23:00.801729" elapsed="0.016139">TypeError: 'module' object is not callable</status>
+</kw>
+<status status="FAIL" start="2025-05-20T19:23:00.800006" elapsed="0.018225">TypeError: 'module' object is not callable</status>
+</test>
+<status status="FAIL" start="2025-05-20T19:23:00.256007" elapsed="0.563328"/>
+</suite>
+<status status="FAIL" start="2025-05-20T19:23:00.254255" elapsed="0.566239"/>
+</suite>
+<status status="FAIL" start="2025-05-20T19:23:00.232609" elapsed="0.588671"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="SauceDemo Practice" id="s1" pass="0" fail="1" skip="0">SauceDemo Practice</stat>
+<stat name="TestCases" id="s1-s1" pass="0" fail="1" skip="0">SauceDemo Practice.TestCases</stat>
+<stat name="CheckoutTest" id="s1-s1-s1" pass="0" fail="1" skip="0">SauceDemo Practice.TestCases.CheckoutTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-20T19:23:00.175910" level="WARN">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 23: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-05-20T19:23:00.176257" level="WARN">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 33: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-05-20T19:23:00.786991" level="ERROR">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot' on line 6: Setting 'Test Template' is not allowed in resource file.</msg>
+<msg time="2025-05-20T19:23:00.787192" level="ERROR">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\CheckoutTest.robot' on line 7: Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot' on line 12: Resource file with 'Test Cases' section is invalid.</msg>
+</errors>
+</robot>

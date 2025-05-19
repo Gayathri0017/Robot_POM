@@ -1,0 +1,9 @@
+[ WARN ] Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 23: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.
+[ WARN ] Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 33: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.
+[ WARN ] Multiple tests with name 'Verify Login Feature' executed in suite 'SauceDemo Practice.TestCases.SauceDemoLogin'.

@@ -1,0 +1,85 @@
+==============================================================================
+SauceDemo Practice                                                            
+==============================================================================
+SauceDemo Practice.TestCases                                                  
+==============================================================================
+SauceDemo Practice.TestCases.VerifySortings                                   
+==============================================================================
+Verify the product sorting from Z - A                                   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:8
+    T:  Verify the product sorting from Z - A    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:9
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x00000209EE4E7620> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify the product sorting from A-Z                                     
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:15
+    T:  Verify the product sorting from A-Z    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:16
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x00000209EE5F4190> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify the product sorting from High price to Low                       
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:21
+    T:  Verify the product sorting from High price to Low    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:22
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x00000209EE5F42D0> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Product Price Order Descending                                   
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:27
+    T:  Verify Product Price Order Descending    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\VerifySortings.robot:28
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x00000209EE47FCE0> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+SauceDemo Practice.TestCases.VerifySortings                           | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+SauceDemo Practice.TestCases                                          | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+SauceDemo Practice                                                    | FAIL |
+4 tests, 0 passed, 4 failed
+==============================================================================
+Output:  D:\RobotFramework-2\SauceDemo_Practice\pabot_results\3\output.xml

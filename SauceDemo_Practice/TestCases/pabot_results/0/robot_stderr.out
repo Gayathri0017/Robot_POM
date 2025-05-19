@@ -1,0 +1,2 @@
+[ ERROR ] Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot' on line 6: Setting 'Test Template' is not allowed in resource file.
+[ ERROR ] Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\CheckoutTest.robot' on line 7: Error in file 'D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot' on line 12: Resource file with 'Test Cases' section is invalid.

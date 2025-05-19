@@ -1,0 +1,37 @@
+==============================================================================
+SauceDemo Practice                                                            
+==============================================================================
+SauceDemo Practice.TestCases                                                  
+==============================================================================
+SauceDemo Practice.TestCases.purchaseProductTest                              
+==============================================================================
+Valid credentials                                                       
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\purchaseProductTest.robot:15
+    T:  Valid credentials    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\purchaseProductTest.robot:18
+      verify the product checkout feature    Firstname=Gayathri    Lastname=R    Zipcode=123456
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\purchaseProductTest.robot:20
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000020EB18E7230> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+SauceDemo Practice.TestCases.purchaseProductTest                      | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+SauceDemo Practice.TestCases                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+SauceDemo Practice                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\RobotFramework-2\SauceDemo_Practice\pabot_results\4\output.xml

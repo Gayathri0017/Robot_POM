@@ -1,0 +1,177 @@
+==============================================================================
+SauceDemo Practice                                                            
+==============================================================================
+SauceDemo Practice.TestCases                                                  
+==============================================================================
+SauceDemo Practice.TestCases.SauceDemoLogin                                   
+==============================================================================
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=standard_user    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D3670E0> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=performance_glitch_user    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D2F6490> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=problem_user    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D2F6350> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=visual_user    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D31EB10> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=locked_out_user    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D31ED70> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=    Password=secret_sauce
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D3A15B0> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=standard_user    Password=
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D362140> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+Verify Login Feature                                                    
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:13
+    T:  Verify Login Feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:17
+      Validate Successful and UnSuccessful Login    Username=abc    Password=123
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\SauceDemoLogin.robot:19
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x0000021F5D40C6B0> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+SauceDemo Practice.TestCases.SauceDemoLogin                           | FAIL |
+8 tests, 0 passed, 8 failed
+==============================================================================
+SauceDemo Practice.TestCases                                          | FAIL |
+8 tests, 0 passed, 8 failed
+==============================================================================
+SauceDemo Practice                                                    | FAIL |
+8 tests, 0 passed, 8 failed
+==============================================================================
+Output:  D:\RobotFramework-2\SauceDemo_Practice\pabot_results\2\output.xml
