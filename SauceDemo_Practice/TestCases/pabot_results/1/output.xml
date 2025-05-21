@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-20T19:32:30.116193" rpa="false" schemaversion="5">
+<suite id="s1" name="TestCases" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases">
+<suite id="s1-s1" name="LogoutTest" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases\LogoutTest.robot">
+<test id="s1-s1-t1" name="Verify the logout feature" line="7">
+<kw name="Open the browser with url" owner="GenericResources">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:32:30.592477" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x000002566A67DA90&gt;</msg>
+<var>${options}</var>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.591935" elapsed="0.000630"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--incognito</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.592784" elapsed="0.000300"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.593289" elapsed="0.000283"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-notifications</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.593759" elapsed="0.000260"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-popup-blocking</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.594174" elapsed="0.000263"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.594598" elapsed="0.000234"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:32:30.595359" level="INFO">${prefs} = {'credentials_enable_service': False, 'profile.password_manager_enabled': False}</msg>
+<var>${prefs}</var>
+<arg>{"credentials_enable_service": False, "profile.password_manager_enabled": False}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.595023" elapsed="0.000387"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_experimental_option</arg>
+<arg>prefs</arg>
+<arg>${prefs}</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.595555" elapsed="0.000278"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:30.596500" level="INFO">Opening browser 'chrome' to base url 'https://www.saucedemo.com/'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<arg>options=${options}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-20T19:32:30.596028" elapsed="5.507413"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.103725" elapsed="0.005954"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.109909" elapsed="0.001429"/>
+</kw>
+<status status="PASS" start="2025-05-20T19:32:30.590875" elapsed="5.520643"/>
+</kw>
+<kw name="fill the login form" owner="LoginResources">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:36.112788" level="INFO">Typing text 'standard_user' into text field 'name=user-name'.</msg>
+<arg>${un}</arg>
+<arg>${Username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.112264" elapsed="0.167714"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:36.280950" level="INFO">Typing password into text field 'name=password'.</msg>
+<msg time="2025-05-20T19:32:36.337460" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>${pw}</arg>
+<arg>${Password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.280322" elapsed="0.130674"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:36.412025" level="INFO">Clicking button 'id=login-button'.</msg>
+<arg>${loginbtn}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.411385" elapsed="0.190786"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-20T19:32:41.603581" level="INFO">Slept 5 seconds.</msg>
+<arg>5</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-20T19:32:36.602579" elapsed="5.001318"/>
+</kw>
+<arg>standard_user</arg>
+<arg>secret_sauce</arg>
+<status status="PASS" start="2025-05-20T19:32:36.111756" elapsed="5.492474"/>
+</kw>
+<kw name="verify the dash board Page" owner="LoginResources">
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:41.606598" level="INFO">Verifying element 'xpath=//div[@class='app_logo']' contains exact text 'Swag Labs'.</msg>
+<arg>${dashText}</arg>
+<arg>Swag Labs</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2025-05-20T19:32:41.605840" elapsed="0.048953"/>
+</kw>
+<status status="PASS" start="2025-05-20T19:32:41.604775" elapsed="0.050350"/>
+</kw>
+<kw name="click Logout Button and verify the logout" owner="LoginResources">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:41.657267" level="INFO">Clicking element 'id=react-burger-menu-btn'.</msg>
+<arg>${menu}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-20T19:32:41.656648" elapsed="0.169306"/>
+</kw>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:41.827351" level="INFO">Clicking element 'id=logout_sidebar_link'.</msg>
+<arg>${logout}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-20T19:32:41.826573" elapsed="0.363687"/>
+</kw>
+<kw name="Location Should Be" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:32:42.213156" level="INFO">Current location is 'https://www.saucedemo.com/'.</msg>
+<arg>https://www.saucedemo.com/</arg>
+<doc>Verifies that the current URL is exactly ``url``.</doc>
+<status status="PASS" start="2025-05-20T19:32:42.190892" elapsed="0.022489"/>
+</kw>
+<status status="PASS" start="2025-05-20T19:32:41.655650" elapsed="0.557976"/>
+</kw>
+<kw name="close the broswer session" owner="GenericResources">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-20T19:32:42.214780" elapsed="2.185726"/>
+</kw>
+<status status="PASS" start="2025-05-20T19:32:42.214037" elapsed="2.186757"/>
+</kw>
+<status status="PASS" start="2025-05-20T19:32:30.589769" elapsed="13.811360"/>
+</test>
+<status status="PASS" start="2025-05-20T19:32:30.162710" elapsed="14.239601"/>
+</suite>
+<status status="PASS" start="2025-05-20T19:32:30.143738" elapsed="14.260513"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TestCases" id="s1" pass="1" fail="0" skip="0">TestCases</stat>
+<stat name="LogoutTest" id="s1-s1" pass="1" fail="0" skip="0">TestCases.LogoutTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

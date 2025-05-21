@@ -1,0 +1,34 @@
+==============================================================================
+SauceDemo Practice                                                            
+==============================================================================
+SauceDemo Practice.TestCases                                                  
+==============================================================================
+SauceDemo Practice.TestCases.LogoutTest                                       
+==============================================================================
+Verify the logout feature                                               
+  Traceback (most recent call last):
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\LogoutTest.robot:7
+    T:  Verify the logout feature    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\TestCases\LogoutTest.robot:8
+      Open the browser with url    
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    File  D:\RobotFramework-2\SauceDemo_Practice\Resources\GenericResources.robot:18
+      Create Webdriver    ${browser}    options=${options}
+      |  ${browser} = chrome (str)
+      |  options=${options} = options=<selenium.webdriver.chrome.options.Options object at 0x000001EE574EDA90> (str)
+______________________________________________________________________________
+| FAIL |
+TypeError: 'module' object is not callable
+------------------------------------------------------------------------------
+SauceDemo Practice.TestCases.LogoutTest                               | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+SauceDemo Practice.TestCases                                          | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+SauceDemo Practice                                                    | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  D:\RobotFramework-2\SauceDemo_Practice\pabot_results\1\output.xml

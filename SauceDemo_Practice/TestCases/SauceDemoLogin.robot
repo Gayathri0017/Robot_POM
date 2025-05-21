@@ -3,37 +3,34 @@ Library    SeleniumLibrary
 Library    DataDriver    file=../Resources/SauceDemoDatas.xlsx    sheet_name=Sheet1  
 Resource    ../Resources/GenericResources.robot
 Resource    ../Resources/LoginResources.robot
-Test Template    Validate Successful Login    
+Test Template    Validate Successful and UnSuccessful Login  
 
-*** Variables ***
+*** Variables *** 
 ${Username}
 ${Password}
 
 *** Test Cases ***
-Invalid Login with    ${Username}    ${Password}
+Verify Login Feature    ${Username}    ${Password}
+
 
 *** Keywords ***
-Validate Successful Login
+Validate Successful and UnSuccessful Login
     [Arguments]    ${Username}    ${Password}
     Open the browser with url
     fill the login form    ${Username}    ${Password}
     IF    '${Username}'=='locked_out_user'
         verify locked out error
+    ELSE IF    '${Username}'=='abc'
+        verify invalid username and password
+    ELSE IF    '${Username}'==''
+        verify username required error
+    ELSE IF    '${Password}'==''
+        verify password required error
     ELSE    
         verify the dash board Page    
     END
-    close the broswe session
+    close the broswer session
 
-fill the login form
-    [Arguments]    ${Username}    ${Password}
-    Input Text    ${un}    ${Username}
-    Input Password    ${pw}    ${Password}
-    Click Button    ${loginbtn}
-    Sleep    5
 
-verify the dash board Page
-    Element Text Should Be    ${dashText}    Swag Labs
 
-verify locked out error
-    Element Text Should Be    ${lockedError}    Epic sadface: Sorry, this user has been locked out.
-
+    

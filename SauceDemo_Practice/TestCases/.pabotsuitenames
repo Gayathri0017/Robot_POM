@@ -1,0 +1,9 @@
+datasources:60250b8a6c3410311f1f8323cd6485e6506a1d04
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:6758aa5e09ae3a7f9f534668784b02b6c0b79adb
+--suite TestCases.CheckoutTest
+--suite TestCases.LogoutTest
+--suite TestCases.SauceDemoLogin
+--suite TestCases.VerifySortings
+--suite TestCases.purchaseProductTest

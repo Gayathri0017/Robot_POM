@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-05-20T19:23:00.208221" rpa="false" schemaversion="5">
+<suite id="s1" name="SauceDemo Practice" source="D:\RobotFramework-2\SauceDemo_Practice">
+<suite id="s1-s1" name="TestCases" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases">
+<suite id="s1-s1-s1" name="LogoutTest" source="D:\RobotFramework-2\SauceDemo_Practice\TestCases\LogoutTest.robot">
+<test id="s1-s1-s1-t1" name="Verify the logout feature" line="7">
+<kw name="Open the browser with url" owner="GenericResources">
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:23:00.763937" level="INFO">${options} = &lt;selenium.webdriver.chrome.options.Options object at 0x000001EE574EDA90&gt;</msg>
+<var>${options}</var>
+<arg>sys.modules['selenium.webdriver'].ChromeOptions()</arg>
+<arg>sys, selenium.webdriver</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.763355" elapsed="0.000645"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--incognito</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.764215" elapsed="0.000394"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-extensions</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.764767" elapsed="0.000215"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-notifications</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.765098" elapsed="0.000193"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--disable-popup-blocking</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.765403" elapsed="0.000192"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_argument</arg>
+<arg>--start-maximized</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.765703" elapsed="0.000175"/>
+</kw>
+<kw name="Evaluate" owner="BuiltIn">
+<msg time="2025-05-20T19:23:00.766445" level="INFO">${prefs} = {'credentials_enable_service': False, 'profile.password_manager_enabled': False}</msg>
+<var>${prefs}</var>
+<arg>{"credentials_enable_service": False, "profile.password_manager_enabled": False}</arg>
+<doc>Evaluates the given expression in Python and returns the result.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.766095" elapsed="0.000385"/>
+</kw>
+<kw name="Call Method" owner="BuiltIn">
+<arg>${options}</arg>
+<arg>add_experimental_option</arg>
+<arg>prefs</arg>
+<arg>${prefs}</arg>
+<doc>Calls the named method of the given object with the provided arguments.</doc>
+<status status="PASS" start="2025-05-20T19:23:00.766584" elapsed="0.000169"/>
+</kw>
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-05-20T19:23:00.767116" level="INFO">Creating an instance of the chrome WebDriver.</msg>
+<msg time="2025-05-20T19:23:00.767166" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2025-05-20T19:23:00.767270" level="FAIL">TypeError: 'module' object is not callable</msg>
+<arg>${browser}</arg>
+<arg>options=${options}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="FAIL" start="2025-05-20T19:23:00.766888" elapsed="0.030494">TypeError: 'module' object is not callable</status>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.797891" elapsed="0.000156"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.798245" elapsed="0.000115"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="NOT RUN" start="2025-05-20T19:23:00.798525" elapsed="0.000105"/>
+</kw>
+<status status="FAIL" start="2025-05-20T19:23:00.762374" elapsed="0.036472">TypeError: 'module' object is not callable</status>
+</kw>
+<kw name="fill the login form" owner="LoginResources">
+<arg>standard_user</arg>
+<arg>secret_sauce</arg>
+<status status="NOT RUN" start="2025-05-20T19:23:00.799160" elapsed="0.000131"/>
+</kw>
+<kw name="verify the dash board Page" owner="LoginResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.799492" elapsed="0.000125"/>
+</kw>
+<kw name="click Logout Button and verify the logout" owner="LoginResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.799808" elapsed="0.000108"/>
+</kw>
+<kw name="close the broswer session" owner="GenericResources">
+<status status="NOT RUN" start="2025-05-20T19:23:00.800085" elapsed="0.000115"/>
+</kw>
+<status status="FAIL" start="2025-05-20T19:23:00.761413" elapsed="0.039073">TypeError: 'module' object is not callable</status>
+</test>
+<status status="FAIL" start="2025-05-20T19:23:00.273687" elapsed="0.527747"/>
+</suite>
+<status status="FAIL" start="2025-05-20T19:23:00.271882" elapsed="0.530638"/>
+</suite>
+<status status="FAIL" start="2025-05-20T19:23:00.248523" elapsed="0.554748"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="SauceDemo Practice" id="s1" pass="0" fail="1" skip="0">SauceDemo Practice</stat>
+<stat name="TestCases" id="s1-s1" pass="0" fail="1" skip="0">SauceDemo Practice.TestCases</stat>
+<stat name="LogoutTest" id="s1-s1-s1" pass="0" fail="1" skip="0">SauceDemo Practice.TestCases.LogoutTest</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-05-20T19:23:00.186430" level="WARN">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 23: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+<msg time="2025-05-20T19:23:00.186803" level="WARN">Error in file 'D:\RobotFramework-2\SauceDemo_Practice\Resources\SortingResources.robot' on line 33: The '[Return]' setting is deprecated. Use the 'RETURN' statement instead.</msg>
+</errors>
+</robot>
